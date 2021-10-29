@@ -10,7 +10,7 @@ Conditional Generation Using Polynomial Expansions
 	:target: https://arxiv.org/abs/2104.05077
 	:alt: ArXiv
 
-Official implementation of the conditional image generation experiments as described on the NeurIPS'21 paper "**Conditional Generation Using Polynomial Expansions**" (`link <https://arxiv.org/abs/2104.05077>_`).
+Official implementation of the conditional image generation experiments as described on the NeurIPS'21 paper "**Conditional Generation Using Polynomial Expansions**" (`link <https://arxiv.org/abs/2104.05077>`_).
 
 Specifically, we include the code for image generation on class-conditional generation with CIFAR10 in the folder ``conditional_generation_with_gan``.
 
