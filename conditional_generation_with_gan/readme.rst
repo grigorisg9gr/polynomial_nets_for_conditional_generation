@@ -45,8 +45,9 @@ The results are exported in the directory defined in `train_mn_cifar.py` (defaul
 The directory with the results includes folders named as [start_date][label]; inside each respective
 folder the pretrained weights and few indicative images are exported. 
 
-
-
+By default, the code is using evaluation of the IS and FID every 2,000 iterations, so please make sure to either
+include the related model in the path dictated in the `train_mn_cifar.py <https://github.com/grigorisg9gr/polynomial_nets_for_conditional_generation/blob/master/conditional_generation_with_gan/jobs/cope_neurips21/train_mn_cifar.py#L46>`_ or to change the frequency for the
+evaluation in the yml (line `evaluation_interval <https://github.com/grigorisg9gr/polynomial_nets_for_conditional_generation/blob/master/conditional_generation_with_gan/jobs/cope_neurips21/cifar10_cnn_2var_prodpoly_linear_conditional.yml#L8>`_). 
 
 
 Requirements
